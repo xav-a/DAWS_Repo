@@ -1,3 +1,9 @@
 /* Taller CSS - Anibal Gamboa, Xavier Andrade */
 
+h1 {
+	text-align: center;
+	font-size: 24pt;
+	font: Verdana;
+	color: blue;
+}
 
