@@ -53,6 +53,10 @@ tr:nth-child(odd) {
 	background: #FFF;
 	}
 
+.imagen {
+	box-shadow: 2px 2px;
+	border:1px solid #021a40;
+}
 
 
 
