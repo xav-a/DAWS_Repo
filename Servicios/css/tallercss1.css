@@ -1,9 +1,16 @@
 /* Taller CSS - Anibal Gamboa, Xavier Andrade */
 
-h1 {
-	text-align: center;
-	font-size: 24pt;
-	font: Verdana;
-	color: blue;
+header {
+	background: url(https://upload.wikimedia.org/wikipedia/commons/2/20/Services4.png) 100% 50%;
+	height: 100pt;
 }
+
+header > h1 {
+	text-align: center;
+	margin: 0 auto;
+	font-size: 32pt;
+	font-family: Verdana;
+	color: black;
+}
+
 
