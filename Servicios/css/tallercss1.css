@@ -1,3 +1,26 @@
 /* Taller CSS - Anibal Gamboa, Xavier Andrade */
 
+nav {
+    background-color: rgb(100,220,220);
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(100,100,200)
+
+}
+nav:hover{
+    background-color: #333333;
+}
+
+li :active{
+    font-weight: bold;
+    background-color:  rgb(200,120,120)
+}
+
+footer{
+    border-style: solid;
+    border-width: 5px;
+    border-color: rgb(100,100,200);
+    text-align: justify;
+    
+}
 
