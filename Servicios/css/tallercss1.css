@@ -6,6 +6,15 @@ header {
 	height: 100pt;
 }
 
+div, label {
+	margin: 4px;
+}
+
+.container {
+	width: 25%;
+	display: inline-block;
+}
+
 header > h1 {
 	text-align: center;
 	margin: 0 auto;
@@ -14,6 +23,35 @@ header > h1 {
 	color: black;
 }
 
+body > picture {
+	padding: 4px;
+	margin: 8px;
+}
+
+body > h3, p {
+	padding: 4px;
+	margin: 4px;
+}
+
+table {
+	padding: 2px;
+	margin: 16px;
+	width: 25%;
+	display: inline-table;
+}
+
+th {
+	color: white;
+	font-style: bold;
+	background: #A9A9A9;
+}
+
+tr:nth-child(even) {
+	background: #CCC;
+}
+tr:nth-child(odd) {
+	background: #FFF;
+	}
 
 
 
