@@ -28,6 +28,10 @@ body > picture {
 	margin: 8px;
 }
 
+img[alt="Mision"]:hover, img[alt="Vision"]:hover{
+	opacity: 0.5;
+}
+
 body > h3, p {
 	padding: 4px;
 	margin: 4px;
@@ -58,6 +62,38 @@ tr:nth-child(odd) {
 	border:1px solid #021a40;
 }
 
+.tooltip {
+    position: relative;
+    
+}
+
+.tooltip .tooltiptext {
+	visibility: hidden;
+	background-color: rgb(100,100,200);
+	color: #fff;
+	text-align: center;
+    border-radius: 6px;
+	padding: 5px 10px;
+	position: relative;
+	left: 2%;
+
+}
+
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 100%;
+    margin-top: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent rgb(100,100,200) transparent transparent;
+}
+
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
 
 
 nav {
@@ -89,17 +125,14 @@ footer::after{
     display: table;
 }
 
-#footerTextContainer{
-	display: inline-block;
-	text-align: left;
+footer > div{
+	float: left;
 	text-align: justify;
 	width: 600px;
 	
-	
 }
-#footerImage{
+footer > img{
 	height: 10%;
 	width: 10%;
 	float: right;
 }
-
