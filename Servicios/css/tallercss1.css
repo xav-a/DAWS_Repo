@@ -61,13 +61,15 @@ tr:nth-child(odd) {
 	box-shadow: 2px 2px;
 	border:1px solid #021a40;
 }
-
-.tooltip {
+ul{
+	width: 25%;
+}
+li {
 	position: relative;
 	
 	
 }
-li > span{
+li > .tooltiptext{
 	visibility: hidden;
 	background-color: rgb(100,100,200);
 	color: #fff;
@@ -79,7 +81,7 @@ li > span{
 
 }
 
-li span::after {
+li .tooltiptext::after {
     content: "";
     position: absolute;
     top: 50%;
@@ -91,9 +93,8 @@ li span::after {
 }
 
 
-.tooltip:hover span {
+.tooltip:hover + .tooltiptext {
 	visibility: visible;
-	
 }
 
 
