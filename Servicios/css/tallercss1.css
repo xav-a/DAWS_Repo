@@ -1,6 +1,5 @@
 /* Taller CSS - Anibal Gamboa, Xavier Andrade */
 
-
 header {
 	background: url(https://upload.wikimedia.org/wikipedia/commons/2/20/Services4.png) 100% 50%;
 }
@@ -59,8 +58,9 @@ body > h3, p {
 	margin: 4px;
 }
 
-.principal {
+div.principal {
 	float: right;
+	width: 65%;
 }
 
 table {
