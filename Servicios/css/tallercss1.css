@@ -3,16 +3,16 @@
 
 header {
 	background: url(https://upload.wikimedia.org/wikipedia/commons/2/20/Services4.png) 100% 50%;
-	height: 100pt;
 }
 
-div, label {
-	margin: 4px;
-}
 
 .container {
 	width: 25%;
-	display: inline-block;
+	float: right;
+}
+
+.container .days {
+	font-size: 7pt;
 }
 
 header > h1 {
@@ -28,20 +28,45 @@ body > picture {
 	margin: 8px;
 }
 
+div, label {
+	margin: 4px;
+}
+
+div {
+	box-sizing: border-box;
+}
+
+video {
+	width: 100%
+}
+
 img[alt="Mision"]:hover, img[alt="Vision"]:hover{
 	opacity: 0.5;
 }
+
+
+aside {
+    height: 70%; 
+    width: 30%;
+	box-sizing: border-box;	
+    padding-top: 20px;
+	float: left;
+}
+
 
 body > h3, p {
 	padding: 4px;
 	margin: 4px;
 }
 
+.principal {
+	float: right;
+}
+
 table {
 	padding: 2px;
 	margin: 16px;
 	width: 25%;
-	display: inline-table;
 }
 
 th {
@@ -138,19 +163,20 @@ footer{
 	
 }
 
-footer::after{
-	content: "";
+footer {
+	height:10%;
+	width: auto;
+	float: left;
 	clear: both;
-    display: table;
 }
 
-footer > div{
+
+.footer-block > p{
 	float: left;
 	text-align: justify;
-	width: 600px;
-	
+	width: 70%;	
 }
-footer > img{
+.footer-block > img{
 	height: 10%;
 	width: 10%;
 	float: right;
