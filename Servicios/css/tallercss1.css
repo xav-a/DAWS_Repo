@@ -1,17 +1,7 @@
 /* Taller CSS - Anibal Gamboa, Xavier Andrade */
-
+* { border: solid black 1px;}
 header {
 	background: url(https://upload.wikimedia.org/wikipedia/commons/2/20/Services4.png) 100% 50%;
-}
-
-
-.container {
-	width: 25%;
-	float: right;
-}
-
-.container .days {
-	font-size: 7pt;
 }
 
 header > h1 {
@@ -86,24 +76,25 @@ tr:nth-child(odd) {
 	box-shadow: 2px 2px;
 	border:1px solid #021a40;
 }
-ul{
-	width: 25%;
+
+.principal > ul{
+	width: 30%;
 }
+
 li {
-	position: relative;
-	
-	
+	position: relative;	
 }
-li > .tooltiptext{
+li .tooltiptext{
 	visibility: hidden;
 	background-color: rgb(100,100,200);
 	color: #fff;
 	text-align: center;
     border-radius: 6px;
 	padding: 5px 10px;
-	position: relative;
-	left: 2%;
-
+	position: absolute;
+	left: 50%;
+	bottom: 10%;
+	z-index: 1;
 }
 
 li .tooltiptext::after {
@@ -131,6 +122,10 @@ nav {
 	overflow: hidden;
 
 }
+
+nav > ul {
+	width: 80%; 
+}
 nav > ul{
 	list-style-type: none;
 	margin: 0;
@@ -155,6 +150,15 @@ li > a:active{
     font-weight: bold;
     background-color:  rgb(200,120,120);
 }
+
+*:focus {
+	outline: none;
+}
+
+form, form * {
+	font-family: Verdana, serif;
+}
+
 
 footer{
     border-style: solid;
