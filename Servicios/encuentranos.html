@@ -41,32 +41,35 @@
 		
 	
 		<h2>Envianos tus Opiniopnes</h2>
-		<form>			
-		 	<label>Nombre:	</label><input name="Nombres completos" type="text"><br/>
-			<label>Correo electronico:	</label><input name="correo electronico" type="text"><br/> 
-
-			<label>Utilidad del sitio</label>
-			<input type="radio" name="utilidad"> nada
-  			<input type="radio" name="utilidad"> poco
- 			<input type="radio" name="utilidad"> algo
-			<input type="radio" name="utilidad"> muy	
-			<input type="radio" name="utilidad"> completamente<br>			
+		<form>
+			<ul>
+				<li><label>Nombre:	</label><input name="Nombres completos" type="text"><br/></li>
+				<li><label>Correo electronico:	</label><input name="correo electronico" type="text"><br/></li>
 				
-			<label>Edad</label>
-			<input type="number" name="quantity" min="1" max="100"><br>
-
-			<label>Provincia</label>
-			 <select>
-  				<option value="Azuay">Azuay</option>
-  				<option value="Guayas">Guayas</option>
-  				<option value="Pichincha">Pichincha</option>
-  				
-			</select> 
-			<br><label>Comentarios:</label><br>
-			 	<textarea name="message" rows="10" cols="30">Ingrese aqui su comentario.
-				</textarea><br>
-			<input type="checkbox" name="noticias">Deseo subscribirme para recibir noticias<br>
-			<button type="button">Enviar</button> 
+				<li><span>
+				<label>Utilidad del sitio</label>
+				<input type="radio" name="utilidad"> nada
+				<input type="radio" name="utilidad"> poco
+				<input type="radio" name="utilidad"> algo
+				<input type="radio" name="utilidad"> muy	
+				<input type="radio" name="utilidad"> completamente</span></li>			
+					
+				<li><label>Edad</label><input type="number" name="quantity" min="1" max="100">
+				
+				<li>
+				<label>Provincia</label>
+				<select>
+					<option value="Azuay">Azuay</option>
+					<option value="Guayas">Guayas</option>
+					<option value="Pichincha">Pichincha</option>					
+				</select> 
+				</li>
+				
+				<li><label>Comentarios:</label></li>
+				<li><textarea name="message" rows="10" cols="30">Ingrese aqui su comentario.</textarea>
+				<li><input type="checkbox" name="noticias">Deseo subscribirme para recibir noticias</li>
+				<li><button type="button">Enviar</button></li>
+			</ul>
 			
 		</form>
 		

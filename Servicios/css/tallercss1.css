@@ -1,5 +1,5 @@
 /* Taller CSS - Anibal Gamboa, Xavier Andrade */
-* { border: solid black 1px;}
+
 header {
 	background: url(https://upload.wikimedia.org/wikipedia/commons/2/20/Services4.png) 100% 50%;
 }
@@ -159,6 +159,18 @@ form, form * {
 	font-family: Verdana, serif;
 }
 
+form li {
+	list-style: none;
+	padding: 1px;
+	margin: 1px;
+}
+
+form button {
+	border: 0;
+	background: #c8f7ed;
+	box-shadow: none;
+	border-radius: 5px;
+}
 
 footer{
     border-style: solid;
