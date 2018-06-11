@@ -5,139 +5,176 @@
 		<meta charset="UTF-8">
 		<title>TodoMisServicios - Quienes Somos</title>
 		<link rel="stylesheet" href="./css/calendar.css">
-		<link rel="stylesheet" href="./css/tallercss1.css">
-
+		<!--<link rel="stylesheet" href="./css/tallercss1.css">-->
+		<link rel="stylesheet" href="bs4/css/bootsrap.css">
+		<link rel="stylesheet" href="bs4/css/bootstrap-grid.css">
+			
+		
 		<link href="http://assets.insights.litmus.com/campaigns/tedc-2015/assets/tweets.css" type="text/css" rel="stylesheet" />
 	</head>
 	
 	<body>
-		<header>
-			<h1>TodoMisServicios.ec</h1>
-		</header>
-		<nav>
-			<ul>
-				<li><a href="index.html">Principal</a></li>
-				<li><a href="quienessomos.html">Quienes Somos</a></li>
-				<li><a href="personal.html">Personal</a></li>
-				<li><a href="encuentranos.html">Encuentranos</a></li>
-			</ul>		
-		</nav>
-		
-		
-		<aside class="sidebar">
-			<section>
-				<h3>Como Usar Nuestro sitio</h3>
-				<video width="320" height="240" controls>
-					<source src="https://www.youtube.com/watch?v=cbP2N1BQdYc">
-				</video>
-			</section>
-				
-			<section>
-				<h3>Stream</h3>
-				<div class="stream">
-					<a class="twitter-timeline" data-width="256" data-height="300" data-dnt="true" href="https://twitter.com/espol_fiec?ref_src=twsrc%5Etfw">Tweets by espol_fiec</a> 
-					<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-				</div>				
-			</section>
-		</aside>
-			
-		
-		<div id="principal">
-			<h2>¿Quienes Somos?</h2>
-			<p>
-				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie quam non magna dapibus faucibus. Suspendisse potenti. Maecenas lobortis, turpis imperdiet pulvinar pulvinar, libero tortor fringilla quam, vel dictum leo odio ut magna. Ut sed condimentum ligula, nec malesuada felis. Fusce tempor nisl est, vitae laoreet elit malesuada ut. Duis venenatis, nulla sed pharetra ultricies, diam felis placerat neque, a dictum massa dolor nec nisl. Aenean imperdiet sem eu felis facilisis egestas. Nullam sed luctus augue. Vestibulum in pretium felis. Donec laoreet venenatis laoreet...
-			</p>
-		</div>
-				
 		<div class="container">
-			<label>Fechas Importantes : </label>
-			<div class="calendar-base">
-			
-				<div class="year">2018</div>
-				<!-- year -->
-			
-				<div class="months">
-				<span class="month-hover">Jan</span>
-				<span class="month-hover">Feb</span> 
-				<span class="month-hover">Mar</span> 
-				<strong class="month-color">Apr</strong>
-				<span class="month-hover">May</span>
-				<span class="month-hover">Jun</span>
-				<span class="month-hover">July</span> 
-				<span class="month-hover">Aug</span> 
-				<span class="month-hover">Sep</span> 
-				<span class="month-hover">Oct</span> 
-				<span class="month-hover">Nov</span> 
-				<span class="month-hover">Dec</span>
-				</div><!-- months -->
-				<hr class="month-line" />
-			
-				<div class="days">SUN MON TUE WED THU FRI SAT</div>
-				<!-- days -->
-			
-				<div class="num-dates">
-			
-				<div class="week"><span class="grey">26 27 28 29 30 31</span> 01</div>
-				<!-- first week -->
-				<div class="week">02 03 04 05 06 07 08</div>
-				<!-- week -->
-				<div class="week">09 10 11 12 13 14 15</div>
-				<!-- week -->
-				<div class="week">16 17 18 19 20 21 22</div>
-				<!-- week -->
-				<div class="week">23 24 25 26 <strong class="white">27</strong> 28 29</div>
-				<!-- week -->
-				<div class="week">30 <span class="grey">01 02 03 04 05 06</span></div>
-				<!-- week -->
-				</div>
-							
+			<div class="row">
+				<header>
 			</div>
-			<!-- calendar-base -->
-			<div class="calendar-left">
-				<!--day -->
-				<div class="current-events">Current Events
-				<br/>
-				<ul>
-					<li>Day 09 Daily CSS Image</li>
-				</ul>
-				</div>
-							
+				<h1 class="h1">TodoMisServicios.ec</h1>
+			</header>
+			<div class="row">
+				<nav>
+					<ul>
+						<li><a href="index.html">Principal</a></li>
+						<li><a href="quienessomos.html">Quienes Somos</a></li>
+						<li><a href="personal.html">Personal</a></li>
+						<li><a href="encuentranos.html">Encuentranos</a></li>
+					</ul>		
+				</nav>
 			</div>
-			<!-- calendar-left -->
+			<div class="row">
+				<div class="col-3">
+					<aside>
+						<section>
+							<h3 class="h3">Como Usar Nuestro Sitio</h3>
+							<video width="100%" controls="True">
+								<source src="https://www.youtube.com/watch?v=cbP2N1BQdYc">
+							</video>
+						</section>
+							
+						<section>
+							<h3 class="h3">Stream</h3>
+							<div class="stream">
+								<a class="twitter-timeline" data-width="256" data-height="300" data-dnt="true" href="https://twitter.com/espol_fiec?ref_src=twsrc%5Etfw">Tweets by espol_fiec</a> 
+								<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+							</div>				
+						</section>
+					</aside>
+				</div>	
+				
+				<div id="principal" class="col-9">
+					<h2>¿Quienes Somos?</h2>
+					<p>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque molestie quam non magna dapibus faucibus. Suspendisse potenti. Maecenas lobortis, turpis imperdiet pulvinar pulvinar, libero tortor fringilla quam, vel dictum leo odio ut magna. Ut sed condimentum ligula, nec malesuada felis. Fusce tempor nisl est, vitae laoreet elit malesuada ut. Duis venenatis, nulla sed pharetra ultricies, diam felis placerat neque, a dictum massa dolor nec nisl. Aenean imperdiet sem eu felis facilisis egestas. Nullam sed luctus augue. Vestibulum in pretium felis. Donec laoreet venenatis laoreet...
+					</p>
+					
+					<div class="container">
+						<div class="row">
+							<div class="col-7">
+								<table class="calendar">
+									<thead>
+										<tr>
+										<th class="arrow"><a href="">◀</a></th>
+										<th colspan="5">
+											October 2011
+										</th>
+										<th class="arrow"><a href="">▶</a></th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+										<th>Mon</th>
+										<th>Tue</th>
+										<th>Wed</th>
+										<th>Thu</th>
+										<th>Fri</th>
+										<th>Sat</th>
+										<th>Sun</th>
+										</tr>
+										<tr>
+										<td class="off">26</td>
+										<td class="off">27</td>
+										<td class="off">28</td>
+										<td class="off">29</td>
+										<td class="off">30</td>
+										<td>1</td>
+										<td>2</td>
+										</tr>
+										<tr>
+										<td>3</td>
+										<td>4</td>
+										<td>5</td>
+										<td>6</td>
+										<td>7</td>
+										<td>8</td>
+										<td>9</td>
+										</tr>
+										<tr>
+										<td>10</td>
+										<td>11</td>
+										<td>12</td>
+										<td>13</td>
+										<td>14</td>
+										<td>15</td>
+										<td>16</td>
+										</tr>
+										<tr>
+										<td>17</td>
+										<td class="last-week">18</td>
+										<td>19</td>
+										<td>20</td>
+										<td>21</td>
+										<td>22</td>
+										<td>23</td>
+										</tr>
+										<tr>
+										<td>24</td>
+										<td class="today">25</td>
+										<td class="tomorrow">26</td>
+										<td>27</td>
+										<td class="event">28</td>
+										<td>29</td>
+										<td>30</td>
+										</tr>
+										<tr>
+										<td>31</td>
+										<td class="off">1</td>
+										<td class="off">2</td>
+										<td class="off">3</td>
+										<td class="off">4</td>
+										<td class="off">5</td>
+										<td class="off">6</td>
+										</tr>
+									</tbody>
+									</table>
+							</div>
+							<div class="col-3">
+								<table class="table table-hover">
+									<tr>
+										<th>Servicios</th>
+										<th>Telefonos</th> 
+									</tr>
+									<tr>
+										<td>SRI</td>
+										<td>9804924</td> 				
+									</tr>
+									<tr>
+										<td>Agua Potable</td>
+										<td>3543553</td> 
+									</tr>
+									<tr>
+										<td>Electricidad</td>
+										<td>354355344</td> 
+									</tr>
+									<tr>
+									<td>Gas</td>
+									<td>12341413</td> 
+									</tr>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			
+			<div class="row">
+				<footer>
+					<div class="footer-block">
+						<p>&copy El contenido de esta obra es de propiedad intelectual de nuestro grupo. Todos los derechos reservados.  Prohibida su reproducción total, parcial, comunicación pública o distribución sin autorización previa del titular de los derechos</p>
+					
+						<img src= "http://sytechlabs.com/img/whatiswebapplication.png">
+					</div>
+				</footer>
+			</div>
 		</div>
-		<!-- container -->
-		
-		<table>
-			<tr>
-				<th>Servicios</th>
-				<th>Telefonos</th> 
-			</tr>
-			<tr>
-				<td>SRI</td>
-				<td>9804924</td> 				
-			</tr>
-			<tr>
-				<td>Agua Potable</td>
-				<td>3543553</td> 
-			</tr>
-			<tr>
-				<td>Electricidad</td>
-				<td>354355344</td> 
-			</tr>
-			<tr>
-				<td>Gas</td>
-				<td>12341413</td> 
-			</tr>
-		</table>
-		
-		
-		<footer>
-			<div class="footer-block">
-				<p>&copy El contenido de esta obra es de propiedad intelectual de nuestro grupo. Todos los derechos reservados.  Prohibida su reproducción total, parcial, comunicación pública o distribución sin autorización previa del titular de los derechos</p>
-			
-				<img src= "http://sytechlabs.com/img/whatiswebapplication.png">
-			</div>
-		</footer>
 	</body>
 		
 </html>
