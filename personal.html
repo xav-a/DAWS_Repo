@@ -7,7 +7,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 		<link rel="stylesheet" href="./bs4/css/bootstrap.css">
 		<link rel="stylesheet" href="./bs4/css/bootstrap-grid.css">
-		<!--<link rel="stylesheet" href="./css/tallercss1.css">-->
+		<link rel="stylesheet" href="./css/tallercss1.css">
 		<link href="http://assets.insights.litmus.com/campaigns/tedc-2015/assets/tweets.css" type="text/css" rel="stylesheet"/>
 		
 	</head>
@@ -55,18 +55,25 @@
 				</div>
 				<div class="col-9">
 					<picture>
-					<img class="imagen" src="http://www.genetrix.com.ec/images/Mision.png" alt="testimage" height="50" width="40">
+					<img class="imagen" src="http://www.genetrix.com.ec/images/Mision.png" alt="testimage">
 					</picture>
 					<h2>Datos Personales</h2>
 					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 					<h2>Servicios Registrados</h2>
-					<ul>
-						<li><span class="tooltip">SRI</span><span class="tooltiptext">Descripcion Servicio de Rentas Internas</span></li>
-						<li><span class="tooltip">Telefonia Movil </span><span class="tooltiptext">Descripcion telefonia movil</span></li>
-						<li><span class="tooltip">Telefonia fija </span><span class="tooltiptext">Descripcion telefonia fija</span></li>
-						<li><span class="tooltip">Cable</span><span class="tooltiptext">Descripcion de cable </span></li>
-						<li><span class="tooltip">Pensiones alimenticias</span> <span class="tooltiptext">descripcion pensiones alimenticias</span></li>
-					</ul>
+					<div class="container">
+					 <ul class="list-inline">
+					    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Descripcion Servicio de Rentas Internas">SRI</a></li>
+					    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Descripcion telefonia movil">Telefonia Movil</a></li>
+					    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Descripcion telefonia fija">Telefonia fija</a></li>
+					    <li><a href="#" data-toggle="tooltip" data-placement="right" title="Descripcion de cable">Cable</a></li>
+					    <li><a href="#" data-toggle="tooltip" data-placement="right" title="descripcion pensiones alimenticias">Pensiones alimenticias</a></li>
+  					</ul>
+  					</div>
+					<script>
+						$(document).ready(function(){
+						    $('[data-toggle="tooltip"]').tooltip();   
+						});
+					</script>
 				</div>
 			</div>
 			<div class="row">

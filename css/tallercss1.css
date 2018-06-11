@@ -16,7 +16,7 @@ body > picture {
 	padding: 4px;
 	margin: 8px;
 }
-
+/*
 div, label {
 	margin: 4px;
 }
@@ -24,7 +24,7 @@ div, label {
 div {
 	box-sizing: border-box;
 }
-
+*/
 video {
 	width: 100%
 }
@@ -33,7 +33,7 @@ img[alt="Mision"]:hover, img[alt="Vision"]:hover{
 	opacity: 0.5;
 }
 
-
+/*
 aside {
     height: 70%; 
     width: 30%;
@@ -71,12 +71,12 @@ tr:nth-child(even) {
 tr:nth-child(odd) {
 	background: #FFF;
 	}
-
+*/
 .imagen {
 	box-shadow: 2px 2px;
 	border:1px solid #021a40;
 }
-
+/*
 .principal > ul{
 	width: 30%;
 }
@@ -84,6 +84,9 @@ tr:nth-child(odd) {
 li {
 	position: relative;	
 }
+
+
+
 li .tooltiptext{
 	visibility: hidden;
 	background-color: rgb(100,100,200);
@@ -141,7 +144,7 @@ nav > ul > li > a{
     padding: 14px 16px;
     text-decoration: none;
 }
-
+*/
 nav > ul > li:hover{
     background-color: #c8f7ed;
 }
@@ -150,6 +153,7 @@ li > a:active{
     font-weight: bold;
     background-color:  rgb(200,120,120);
 }
+/*
 
 *:focus {
 	outline: none;
@@ -197,3 +201,4 @@ footer {
 	width: 10%;
 	float: right;
 }
+*/
